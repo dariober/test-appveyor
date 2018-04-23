@@ -3,4 +3,4 @@ install:
   - java -version
   - java -jar ASCIIGenome.jar -v
   - java -jar ASCIIGenome-1.13.jar -v
-  - java -jar ASCIIGenome.jar -nf -ni -x 'bookmark && zo'
+  - java -jar ASCIIGenome.jar -nf -ni -x commands.ag
