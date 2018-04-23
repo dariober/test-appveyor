@@ -1,2 +1,4 @@
-bookmark
-zo
+zo 5
+ff
+print
+awk '$0 ~ "WASH"'
