@@ -1,3 +1,6 @@
 install:
   - echo This is batch
-  - java -jar ASCIIGenome.jar -h
+  - java -version
+  - java -jar ASCIIGenome.jar -v
+  - java -jar ASCIIGenome-1.13.jar -v
+  - java -jar ASCIIGenome-1.13.jar -nf -ni -x 'bookmark && zo'
