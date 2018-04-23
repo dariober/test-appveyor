@@ -1,0 +1,3 @@
+install:
+  - echo This is batch
+  - java -jar ASCIIGenome.jar -h
