@@ -2,4 +2,4 @@ install:
   - java -version
   - java -jar ASCIIGenome.jar -v
   - java -jar ASCIIGenome.jar -ni -x "bookmark && zo && zo && bookmark"
-  - java -jar ASCIIGenome.jar -nf -ni hg19_genes_head.gtf.gz
+  - java -jar ASCIIGenome.jar -nf -ni -x commands.ag hg19_genes_head.gtf.gz
