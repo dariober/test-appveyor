@@ -6,5 +6,5 @@ install:
   - java -jar ASCIIGenome.jar -ni -x commands.ag hg19_genes_head.gtf.gz
   - cp hg19_genes_head.gtf.gz ~\hg19_genes_head.gtf.gz
   - cp hg19_genes_head.gtf.gz.tbi ~\hg19_genes_head.gtf.gz.tbi
-  - java -jar ASCIIGenome.jar -nf -ni -x 'open ~\hg19_genes_head.gtf.gz && goto chr1:1275790'
+  - java -jar ASCIIGenome.jar -nf -ni -x "open ~/hg19_genes_head.gtf.gz && goto chr1:1275790"
 
