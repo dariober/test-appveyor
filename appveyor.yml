@@ -3,3 +3,8 @@ install:
   - java -jar ASCIIGenome.jar -v
   - java -jar ASCIIGenome.jar -ni -x "bookmark && zo && zo && bookmark"
   - java -jar ASCIIGenome.jar -nf -ni -x commands.ag hg19_genes_head.gtf.gz
+  - java -jar ASCIIGenome.jar -ni -x commands.ag hg19_genes_head.gtf.gz
+  - cp hg19_genes_head.gtf.gz ~\
+  - cp hg19_genes_head.gtf.gz.tbi ~\
+  - java -jar ASCIIGenome.jar -nf -ni -x 'open ~\hg19_genes_head.gtf.gz && goto chr1:1275790'
+
