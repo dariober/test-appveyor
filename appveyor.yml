@@ -1,7 +1,7 @@
 build: off
 
 test_script:
-  - git clone https://github.com/dariober/ASCIIGenome.git
+  - git clone -b v1.14.0 https://github.com/dariober/ASCIIGenome.git
   - cd ASCIIGenome
   - ./gradlew build
   - java -jar build/libs/ASCIIGenome.jar -h
