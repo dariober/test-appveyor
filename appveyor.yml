@@ -1,3 +1,5 @@
+build: off
+
 test_script:
   - ps: java -version
   - ps: java -jar ASCIIGenome.jar -v
