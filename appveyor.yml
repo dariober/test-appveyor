@@ -1,9 +1,9 @@
 build: off
 
 test_script:
-  - ps: java -version
-  - ps: java -jar ASCIIGenome.jar -v
-  - ps: java -jar ASCIIGenome.jar -ni -x "bookmark && zo && zo && bookmark"
+  - java -version
+  - java -jar ASCIIGenome.jar -v
+  - java -jar ASCIIGenome.jar -ni -x "bookmark && zo && zo && bookmark"
   - java -jar ASCIIGenome.jar -nf -ni -x commands.ag hg19_genes_head.gtf.gz
   - java -jar ASCIIGenome.jar -ni -x commands.ag hg19_genes_head.gtf.gz
   - java -jar ASCIIGenome.jar -r chr1:8404073 -x 'print' -ni refSeq.hg19.short.bed.gz
